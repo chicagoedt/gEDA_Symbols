@@ -1,0 +1,94 @@
+v 20110115 2
+B 1000 400 400 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 800 1100 1000 1100 1 0 0
+{
+T 800 1100 5 10 0 0 0 0 1
+pintype=unknown
+T 55 1095 5 10 1 1 0 0 1
+pinlabel=GND
+T 905 1145 5 10 1 1 0 6 1
+pinnumber=1
+T 800 1100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 800 900 1000 900 1 0 0
+{
+T 800 900 5 10 0 0 0 0 1
+pintype=unknown
+T 1855 895 5 10 1 1 0 0 1
+pinlabel=Vref_B
+T 905 945 5 10 1 1 0 6 1
+pinnumber=2
+T 800 900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 800 700 1000 700 1 0 0
+{
+T 800 700 5 10 0 0 0 0 1
+pintype=unknown
+T 1855 695 5 10 1 1 0 0 1
+pinlabel=B1
+T 905 745 5 10 1 1 0 6 1
+pinnumber=3
+T 800 700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 800 500 1000 500 1 0 0
+{
+T 800 500 5 10 0 0 0 0 1
+pintype=unknown
+T 1855 495 5 10 1 1 0 0 1
+pinlabel=B2
+T 905 545 5 10 1 1 0 6 1
+pinnumber=4
+T 800 500 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1600 1100 1400 1100 1 0 0
+{
+T 1600 1100 5 10 0 0 0 0 1
+pintype=unknown
+T 2045 1095 5 10 1 1 0 6 1
+pinlabel=EN
+T 1495 1145 5 10 1 1 0 0 1
+pinnumber=8
+T 1600 1100 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1600 900 1400 900 1 0 0
+{
+T 1600 900 5 10 0 0 0 0 1
+pintype=unknown
+T 545 895 5 10 1 1 0 6 1
+pinlabel=Vref_A
+T 1495 945 5 10 1 1 0 0 1
+pinnumber=7
+T 1600 900 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1600 700 1400 700 1 0 0
+{
+T 1600 700 5 10 0 0 0 0 1
+pintype=unknown
+T 445 695 5 10 1 1 0 6 1
+pinlabel=A1
+T 1495 745 5 10 1 1 0 0 1
+pinnumber=6
+T 1600 700 5 10 0 0 0 0 1
+pinseq=0
+}
+P 1600 500 1400 500 1 0 0
+{
+T 1600 500 5 10 0 0 0 0 1
+pintype=unknown
+T 445 495 5 10 1 1 0 6 1
+pinlabel=A2
+T 1495 545 5 10 1 1 0 0 1
+pinnumber=5
+T 1600 500 5 10 0 0 0 0 1
+pinseq=0
+}
+T 700 200 8 10 1 1 0 0 1
+device=TI_LSF0102
+T 900 0 8 10 1 1 0 0 1
+refdes=U?
