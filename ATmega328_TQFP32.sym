@@ -1,0 +1,368 @@
+v 20110115 2
+T 4940 4300 8 10 1 1 0 6 1
+refdes=U?
+T 1540 8140 5 10 1 0 0 0 1
+device=Atmega328
+T 1540 8340 5 10 1 0 0 0 1
+footprint=DIP32
+T 1540 8540 5 10 1 0 0 0 1
+description=8-bit RISC micro controller (Atmel)
+P 3350 1040 3350 1340 1 0 0
+{
+T 3370 1140 5 8 1 1 0 0 1
+pinnumber=10
+T 3400 1140 5 8 0 1 0 2 1
+pinseq=10
+T 3400 2280 9 8 1 1 90 3 1
+pinlabel=(PCINT22/OC0A/AIN0)PD6
+T 3350 1440 5 8 0 1 0 3 1
+pintype=out
+}
+P 3050 1040 3050 1340 1 0 0
+{
+T 3090 1140 5 8 1 1 0 0 1
+pinnumber=9
+T 3100 1140 5 8 0 1 0 2 1
+pinseq=9
+T 3100 2240 9 8 1 1 90 3 1
+pinlabel=(PCINT21/OC0B/T1) PD5
+T 3050 1440 5 8 0 1 0 3 1
+pintype=io
+}
+P 4140 1040 4140 1340 1 0 0
+{
+T 4165 1250 5 8 1 1 180 6 1
+pinnumber=13
+T 4190 1240 5 8 0 1 90 8 1
+pinseq=13
+T 4190 1395 9 8 1 1 90 0 1
+pinlabel=(PCINT1/OC1A)PB1
+T 4140 1390 5 8 0 1 90 2 1
+pintype=io
+}
+P 3890 1040 3890 1340 1 0 0
+{
+T 3905 1250 5 8 1 1 180 6 1
+pinnumber=12
+T 3940 1240 5 8 0 1 90 8 1
+pinseq=12
+T 3940 1395 9 8 1 1 90 0 1
+pinlabel=(PCINT0/CLKO/ICP1)PB0
+T 3890 1390 5 8 0 1 90 2 1
+pintype=io
+}
+P 3650 1040 3650 1340 1 0 0
+{
+T 3675 1240 5 8 1 1 180 6 1
+pinnumber=11
+T 3700 1240 5 8 0 1 90 8 1
+pinseq=11
+T 3700 1395 9 8 1 1 90 0 1
+pinlabel=(PCINT23/AIN1)PD7
+T 3650 1390 5 8 0 1 90 2 1
+pintype=io
+}
+P 1270 4740 1570 4740 1 0 0
+{
+T 1470 4790 5 8 1 1 0 6 1
+pinnumber=3
+T 1470 4690 5 8 0 1 0 8 1
+pinseq=3
+T 1620 4740 9 8 1 1 0 0 1
+pinlabel=GND
+T 1620 4740 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 6670 4500 6370 4500 1 0 0
+{
+T 6465 4545 5 8 1 1 0 0 1
+pinnumber=21
+T 6470 4450 5 8 0 1 0 2 1
+pinseq=21
+T 6315 4495 9 8 1 1 0 6 1
+pinlabel=GND
+T 6320 4500 5 8 0 1 0 8 1
+pintype=power
+}
+P 6670 5210 6370 5210 1 0 0
+{
+T 6465 5255 5 8 1 1 0 0 1
+pinnumber=24
+T 6470 5160 5 8 0 1 0 2 1
+pinseq=24
+T 6315 5205 9 8 1 1 0 6 1
+pinlabel=PC1(ADC1/PCINT9)
+T 6320 5210 5 8 0 1 0 8 1
+pintype=io
+}
+P 6670 4980 6370 4980 1 0 0
+{
+T 6470 5030 5 8 1 1 0 0 1
+pinnumber=23
+T 6470 4930 5 8 0 1 0 2 1
+pinseq=23
+T 6320 4980 9 8 1 1 0 6 1
+pinlabel=PC0(ADC0/PCINT8)
+T 6320 4980 5 8 0 1 0 8 1
+pintype=io
+}
+P 6670 3980 6370 3980 1 0 0
+{
+T 6470 4030 5 8 1 1 0 0 1
+pinnumber=19
+T 6470 3930 5 8 0 1 0 2 1
+pinseq=19
+T 6320 3980 9 8 1 1 0 6 1
+pinlabel=ADC6
+T 6320 3980 5 8 0 1 0 8 1
+pintype=io
+}
+P 6670 3710 6370 3710 1 0 0
+{
+T 6480 3760 5 8 1 1 0 0 1
+pinnumber=18
+T 6470 3660 5 8 0 1 0 2 1
+pinseq=18
+T 6320 3710 9 8 1 1 0 6 1
+pinlabel=AVCC
+T 6320 3710 5 8 0 1 0 8 1
+pintype=io
+}
+P 6670 3450 6370 3450 1 0 0
+{
+T 6470 3500 5 8 1 1 0 0 1
+pinnumber=17
+T 6470 3400 5 8 0 1 0 2 1
+pinseq=17
+T 6320 3450 9 8 1 1 0 6 1
+pinlabel=PB5(SCK/PCINT5)
+T 6320 3450 5 8 0 1 0 8 1
+pintype=io
+}
+P 4900 1030 4900 1330 1 0 0
+{
+T 4925 1250 5 8 1 1 180 6 1
+pinnumber=16
+T 4850 1230 5 8 0 1 270 2 1
+pinseq=16
+T 4960 1385 9 8 1 1 90 0 1
+pinlabel=(PCINT4/MISO)PB4
+T 4900 1380 5 8 0 1 270 8 1
+pintype=io
+}
+P 4640 1020 4640 1320 1 0 0
+{
+T 4655 1240 5 8 1 1 180 6 1
+pinnumber=15
+T 4590 1220 5 8 0 1 270 2 1
+pinseq=15
+T 4690 1385 9 8 1 1 90 0 1
+pinlabel=(PCINT3/OC2A/MOSI)PB3
+T 4640 1370 5 8 0 1 270 8 1
+pintype=io
+}
+P 4390 1040 4390 1340 1 0 0
+{
+T 4405 1260 5 8 1 1 180 6 1
+pinnumber=14
+T 4340 1240 5 8 0 1 270 2 1
+pinseq=14
+T 4440 1395 9 8 1 1 90 0 1
+pinlabel=(PCINT2/SS/OC1B)PB2
+T 4390 1390 5 8 0 1 270 8 1
+pintype=io
+}
+P 4700 7380 4700 7080 1 0 0
+{
+T 4650 7175 5 8 1 1 90 0 1
+pinnumber=26
+T 4750 7180 5 8 0 1 90 2 1
+pinseq=26
+T 4760 7025 9 8 1 1 90 6 1
+pinlabel=PC3(ADC3/PCINT11)
+T 4700 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 4990 7380 4990 7080 1 0 0
+{
+T 4940 7175 5 8 1 1 90 0 1
+pinnumber=25
+T 5040 7180 5 8 0 1 90 2 1
+pinseq=25
+T 5020 7025 9 8 1 1 90 6 1
+pinlabel=PC2(ADC2/PCINT10)
+T 4990 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 4480 7380 4480 7080 1 0 0
+{
+T 4430 7175 5 8 1 1 90 0 1
+pinnumber=27
+T 4530 7180 5 8 0 1 90 2 1
+pinseq=27
+T 4530 7015 9 8 1 1 90 6 1
+pinlabel=PC4(ADC4/SDA/PCINT12)
+T 4480 7030 5 8 0 1 90 8 1
+pintype=io
+}
+B 1590 1340 4780 5740 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1540 8740 5 10 1 0 0 0 1
+numslots=0
+T 1540 8940 5 10 1 0 0 0 1
+author=nnovak+jmaltby
+T 3000 4290 9 10 1 0 0 0 1
+ATmega328
+P 1270 3540 1570 3540 1 0 0
+{
+T 1470 3590 5 8 1 1 0 6 1
+pinnumber=7
+T 1470 3490 5 8 0 1 0 8 1
+pinseq=7
+T 1620 3540 9 8 1 1 0 0 1
+pinlabel=(PCINT6/XTAL1/TOSC1)PB6
+T 1620 3540 5 8 0 1 0 2 1
+pintype=io
+}
+P 1270 3240 1570 3240 1 0 0
+{
+T 1470 3290 5 8 1 1 0 6 1
+pinnumber=8
+T 1470 3190 5 8 0 1 0 8 1
+pinseq=8
+T 1620 3240 9 8 1 1 0 0 1
+pinlabel=(PCINT7/XTAL2/TOSC2)PB7
+T 1620 3240 5 8 0 1 0 2 1
+pintype=io
+}
+P 6670 4740 6370 4740 1 0 0
+{
+T 6465 4785 5 8 1 1 0 0 1
+pinnumber=22
+T 6470 4690 5 8 0 1 0 2 1
+pinseq=22
+T 6315 4735 9 8 1 1 0 6 1
+pinlabel=ADC7
+T 6320 4740 5 8 0 1 0 8 1
+pintype=power
+}
+P 6670 4240 6370 4240 1 0 0
+{
+T 6470 4290 5 8 1 1 0 0 1
+pinnumber=20
+T 6470 4190 5 8 0 1 0 2 1
+pinseq=20
+T 6320 4240 9 8 1 1 0 6 1
+pinlabel=AREF
+T 6320 4240 5 8 0 1 0 8 1
+pintype=power
+}
+P 4280 7380 4280 7080 1 0 0
+{
+T 4230 7175 5 8 1 1 90 0 1
+pinnumber=28
+T 4330 7180 5 8 0 1 90 2 1
+pinseq=28
+T 4310 7025 9 8 1 1 90 6 1
+pinlabel=PC5(ADC5/SCL/PCINT13)
+T 4280 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 1270 5340 1570 5340 1 0 0
+{
+T 1470 5390 5 8 1 1 0 6 1
+pinnumber=1
+T 1470 5290 5 8 0 1 0 8 1
+pinseq=1
+T 1620 5340 9 8 1 1 0 0 1
+pinlabel=(PCINT19/OC2B/INT1) PD3
+T 1620 5340 5 8 0 0 0 2 1
+pintype=io
+}
+P 1270 5040 1570 5040 1 0 0
+{
+T 1470 5090 5 8 1 1 0 6 1
+pinnumber=2
+T 1470 4990 5 8 0 1 0 8 1
+pinseq=2
+T 1620 5040 9 8 1 1 0 0 1
+pinlabel=(PCINT20/XCK/T0) PD4
+T 1620 5040 5 8 0 0 0 2 1
+pintype=io
+}
+P 1270 4440 1570 4440 1 0 0
+{
+T 1470 4490 5 8 1 1 0 6 1
+pinnumber=4
+T 1470 4390 5 8 0 1 0 8 1
+pinseq=4
+T 1620 4440 9 8 1 1 0 0 1
+pinlabel=VCC
+T 1620 4440 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 1270 4140 1570 4140 1 0 0
+{
+T 1470 4190 5 8 1 1 0 6 1
+pinnumber=5
+T 1470 4090 5 8 0 1 0 8 1
+pinseq=5
+T 1620 4140 9 8 1 1 0 0 1
+pinlabel=GND
+T 1620 4140 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 1270 3840 1570 3840 1 0 0
+{
+T 1470 3890 5 8 1 1 0 6 1
+pinnumber=6
+T 1470 3790 5 8 0 1 0 8 1
+pinseq=6
+T 1620 3840 9 8 1 1 0 0 1
+pinlabel=VCC
+T 1620 3840 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 3820 7380 3820 7080 1 0 0
+{
+T 3770 7175 5 8 1 1 90 0 1
+pinnumber=30
+T 3870 7180 5 8 0 1 90 2 1
+pinseq=30
+T 3880 7025 9 8 1 1 90 6 1
+pinlabel=PD0 (RXD/PCINT16)
+T 3820 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 4060 7380 4060 7080 1 0 0
+{
+T 4010 7175 5 8 1 1 90 0 1
+pinnumber=29
+T 4110 7180 5 8 0 1 90 2 1
+pinseq=29
+T 4090 7025 9 8 1 1 90 6 1
+pinlabel=PC6 (\_RESET\_/PCINT14)
+T 4060 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 3620 7380 3620 7080 1 0 0
+{
+T 3570 7175 5 8 1 1 90 0 1
+pinnumber=31
+T 3670 7180 5 8 0 1 90 2 1
+pinseq=31
+T 3670 7015 9 8 1 1 90 6 1
+pinlabel=PD1 (TXD/PCINT17)
+T 3620 7030 5 8 0 1 90 8 1
+pintype=io
+}
+P 3420 7380 3420 7080 1 0 0
+{
+T 3370 7175 5 8 1 1 90 0 1
+pinnumber=32
+T 3470 7180 5 8 0 1 90 2 1
+pinseq=32
+T 3450 7025 9 8 1 1 90 6 1
+pinlabel=PD2 (INT0/PCINT18)
+T 3420 7030 5 8 0 1 90 8 1
+pintype=io
+}
