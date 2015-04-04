@@ -178,7 +178,7 @@ pinseq=0
 B 200 200 1200 1800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 {
 T 200 2000 5 10 0 1 0 0 1
-footprint=QSOP16
+footprint=QSOPEP16
 }
 T 300 200 8 10 1 1 0 0 1
 device=MAX15046B
